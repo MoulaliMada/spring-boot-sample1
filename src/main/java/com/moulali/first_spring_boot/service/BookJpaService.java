@@ -1,4 +1,4 @@
-/*package com.moulali.first_spring_boot;
+package com.moulali.first_spring_boot.service;
 
 import java.util.*;
 
@@ -6,6 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
+
+import com.moulali.first_spring_boot.model.Book;
+import com.moulali.first_spring_boot.repository.BookJpaRepository;
+import com.moulali.first_spring_boot.repository.BookRepository;
+
 @Service
 public class BookJpaService implements BookRepository {
 
@@ -62,4 +67,3 @@ public class BookJpaService implements BookRepository {
     }
     
 }
-*/

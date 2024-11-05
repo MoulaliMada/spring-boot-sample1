@@ -1,4 +1,4 @@
-package com.moulali.first_spring_boot;
+/*package com.moulali.first_spring_boot;
 
 import org.springframework.jdbc.core.RowMapper;
 import java.sql.ResultSet;
@@ -14,4 +14,4 @@ public class BookRowMapper implements RowMapper<Book>{
                 rs.getString("imageUrl")
         );
     }
-}
+}*/

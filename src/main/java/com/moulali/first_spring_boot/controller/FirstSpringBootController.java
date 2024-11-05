@@ -1,4 +1,4 @@
-/*package com.moulali.first_spring_boot;
+package com.moulali.first_spring_boot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import java.util.ArrayList;
-//import com.moulali.first_spring_boot.BookJpaService;
+import com.moulali.first_spring_boot.service.BookJpaService;
+import com.moulali.first_spring_boot.model.Book;
 
 
 @RestController
@@ -42,4 +43,4 @@ public class FirstSpringBootController {
         bookService.deleteBook(bookId);
     } 
 
-}*/
+}

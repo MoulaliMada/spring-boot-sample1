@@ -1,4 +1,4 @@
-/*package com.moulali.first_spring_boot;
+package com.moulali.first_spring_boot.model;
 
 import jakarta.persistence.*;
 
@@ -37,4 +37,4 @@ public class Book {
     public void setImageUrl(String imageUrl){
         this.imageUrl=imageUrl;
     }
-}*/
+}

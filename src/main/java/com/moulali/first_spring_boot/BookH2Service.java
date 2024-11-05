@@ -1,4 +1,4 @@
-package com.moulali.first_spring_boot;
+/*package com.moulali.first_spring_boot;
 
 import java.util.*;
 
@@ -62,4 +62,4 @@ public class BookH2Service implements BookRepository{
         db.update("delete from book where id = ?", bookId);
     }
     
-}
+}*/
